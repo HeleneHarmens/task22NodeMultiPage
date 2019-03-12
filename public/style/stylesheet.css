@@ -1,0 +1,86 @@
+body {
+    background-color:#303030;
+    margin: 50px;
+}
+
+h1 {
+    color: #E3B5A4;
+}
+
+h2 {
+    color: #E3B5A4;
+}
+
+h3 {
+    color: #E3B5A4;
+}
+
+h4 {
+    color: #E3B5A4;
+}
+
+p {
+    color: gainsboro
+}
+
+.links {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.petinfo {
+    border-left: solid;
+    border-width: 1px;
+    border-color: white;
+    border-spacing:10px;
+    margin-left: 2%;
+    padding-left: 10px;
+}
+
+
+/* unvisited link */
+a:link {
+    color: orange;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: orange;
+    text-decoration: none;
+    
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: orangered;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: orange;
+    text-decoration: underline;
+  }
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotate270 {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    margin-left: 60px;
+}
+
+img {
+    border-radius: 8px;
+  }
