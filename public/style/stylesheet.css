@@ -3,24 +3,15 @@ body {
     margin: 50px;
 }
 
-h1 {
+h1, h2, h3, h4 {
     color: #E3B5A4;
+    font-family: "Arial Black", Gadget, sans-serif;
 }
 
-h2 {
-    color: #E3B5A4;
-}
-
-h3 {
-    color: #E3B5A4;
-}
-
-h4 {
-    color: #E3B5A4;
-}
 
 p {
-    color: gainsboro
+    color: gainsboro;
+    font-family: Arial, Geneva, Helvetica, sans-serif;
 }
 
 .links {
@@ -39,18 +30,14 @@ p {
 }
 
 
-/* unvisited link */
-a:link {
+/* unvisited & visited link */
+a:link, a:visited {
     color: orange;
     text-decoration: none;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 1.2em;
   }
   
-  /* visited link */
-  a:visited {
-    color: orange;
-    text-decoration: none;
-    
-  }
   
   /* mouse over link */
   a:hover {

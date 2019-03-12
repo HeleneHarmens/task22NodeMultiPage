@@ -18,7 +18,6 @@ function petArr() {
    }
 
 
-
 // INDEX
 // Index page that links to all the other pages
 app.get('/', (req, res) => {
@@ -38,8 +37,6 @@ app.get('/pictures', (req, res) => {
    });
 
 app.use('/public', express.static('public'))
-//app.use('/static', express.static('images'))
-//app.use('/static', express.static('css'))
 
 // DATA
 // A page that returns a json object of 'pet' info
