@@ -1,7 +1,7 @@
 # task22NodeMultiPage
 ## Task 22 - MultiPage using Node
 
-By Helene Hunding Harmens    
+**Helene Hunding Harmens**    
 12.03.2019    
 
 [A git repo of the source code](https://github.com/HeleneHarmens/task22NodeMultiPage)       
